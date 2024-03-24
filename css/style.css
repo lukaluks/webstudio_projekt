@@ -119,11 +119,55 @@ header {
     align-items: center;
     /* outline: red solid; */
    
+} 
+
+.employees-svg-list {
+    display: flex;
+    gap: 10px;
+    margin-left: 32px;
+    padding-top: 28px;
+    margin-right: 32px;
+    
+}
+
+.customers-item {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.customers-item:hover {
+    border: 1px solid #2196F3;
+}
+
+.customers-list {
+    display: flex;
+    gap: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-bottom: 94px;
+}
+
+.customers-title {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding-top: 94px;
+    margin-bottom: 50px;
 }
 
 .header-lists {
     gap: 50px;
     display: flex;
+}
+
+.header-items:hover {
+   fill: #2196F3;
 }
 
 .header-links {
@@ -174,6 +218,54 @@ header {
     font-size: 14px;
     font-weight: 400;
     line-height: 171.4%;
+}
+
+.but-but {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+margin-bottom: 10px;
+}
+
+.input-foot {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+}
+
+.email-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.footer-svg-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
 }
 
 .tel {
@@ -227,6 +319,19 @@ header {
     background-image: url(../img/diagram\ 1.png);
     margin-bottom: 30px;
     background-position: center;
+}
+
+.footer-svg-list {
+    display: flex;
+    gap: 10px;
+    margin-left: 32px;
+    padding-top: 28px;
+    margin-right: 32px;
+    
+}
+
+.flex-footer {
+    display: flex;
 }
 
 .info-item4::before {
@@ -343,7 +448,7 @@ header {
 .employees-item {
     background-color: #FFF;
     width: 270px;
-    height: 368px;
+    height: 428px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
 }

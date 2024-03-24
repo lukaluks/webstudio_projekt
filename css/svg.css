@@ -1,0 +1,92 @@
+.email {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.phone {
+    fill: #757575;
+    width: 16px;
+    height: 16px;
+}
+
+.employees-svg {
+    width: 20px;
+    height: 20px;
+    fill: #757575;
+}
+
+.employees-svg:hover {
+    fill: #fff;
+}
+
+.employees-svg-item:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+    
+}
+
+.employees-svg-item {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+
+}
+
+.customers-svg {
+     width: 106px;
+     height: 60px;
+     fill: grey;
+     margin-top: 16px;
+     margin-bottom: 16px;
+     margin-left: 32px;
+     margin-right: 32px;
+}
+
+.customers-svg:hover {
+    fill: #2196F3;
+}
+
+
+.footer-svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    
+}
+
+.footer-svg:hover {
+    fill: #fff;
+}
+
+.footer-svg-item:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+    
+}
+
+.footer-svg-item {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 50%;
+    
+}
+
+.but {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin-top: 13px;
+}
+
