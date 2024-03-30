@@ -9,6 +9,7 @@
     fill: #757575;
     width: 16px;
     height: 16px;
+    margin-right: 10px;
 }
 
 .employees-svg {
@@ -17,9 +18,18 @@
     fill: #757575;
 }
 
-.employees-svg:hover {
+.employes-svg {
+    width: 20px;
+    height: 20px;
     fill: #fff;
 }
+
+
+.employes-svg-item:hover {
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
 
 .employees-svg-item:hover {
     background-color: #2196F3;
@@ -35,7 +45,18 @@
     padding-top: 12px;
     padding-right: 12px;
     padding-bottom: 12px;
+}
 
+.employes-svg-item {
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
 }
 
 .customers-svg {
@@ -52,36 +73,6 @@
     fill: #2196F3;
 }
 
-
-.footer-svg {
-    width: 20px;
-    height: 20px;
-    fill: #fff;
-    
-}
-
-.footer-svg:hover {
-    fill: #fff;
-}
-
-.footer-svg-item:hover {
-    background-color: #2196F3;
-    border-radius: 50%;
-    
-}
-
-.footer-svg-item {
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    padding-left: 12px;
-    padding-top: 12px;
-    padding-right: 12px;
-    padding-bottom: 12px;
-    background-color: rgba(255, 255, 255, 0.10);
-    border-radius: 50%;
-    
-}
 
 .but {
     width: 24px;

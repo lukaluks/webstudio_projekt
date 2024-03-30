@@ -130,6 +130,12 @@ header {
     
 }
 
+.employes-svg-list {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
 .customers-item {
     width: 170px;
     height: 92px;
@@ -166,8 +172,22 @@ header {
     display: flex;
 }
 
-.header-items:hover {
-   fill: #2196F3;
+
+.header-items:hover .email {
+    fill: #2196F3;
+   
+}
+
+.employees-svg-item:hover .employees-svg {
+    fill: #FFF;
+}
+
+.customers-item:hover .customers-svg {
+    fill: #2196F3;
+}
+
+.header-items:hover .phone {
+    fill: #2196F3;
 }
 
 .header-links {
@@ -258,15 +278,6 @@ margin-bottom: 10px;
     letter-spacing: 0.42px;
 }
 
-.footer-svg-title {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-}
 
 .tel {
     color: var(--phone-color);
@@ -321,18 +332,8 @@ margin-bottom: 10px;
     background-position: center;
 }
 
-.footer-svg-list {
-    display: flex;
-    gap: 10px;
-    margin-left: 32px;
-    padding-top: 28px;
-    margin-right: 32px;
-    
-}
 
-.flex-footer {
-    display: flex;
-}
+
 
 .info-item4::before {
     background-color: #F5F4FA;
@@ -505,6 +506,24 @@ margin-bottom: 10px;
     border: 1px solid #EEE;
     background: #FFF;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.flex {
+    display: flex;
+}
+
+.sot-title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.flex-footer {
+    margin-right: 70px;
 }
 
 .naviganion-button {
