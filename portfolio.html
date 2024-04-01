@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="./css/Reset.css" />
     <link rel="stylesheet" href="./css/container.css" />
+    <link rel="stylesheet" href="./css/svg.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -41,11 +42,17 @@
         </ul>
         <ul class="header-lists">
           <li class="header-items">
+            <svg class="email">
+              <use href="./img/symboldefts.svg/icon.svg#icon-envelope"></use>
+            </svg>
             <a href="mailto:info@devstudio.com" id="header-tel"
               >info@devstudio.com</a
             >
           </li>
           <li class="header-items">
+            <svg class="phone">
+              <use href="./img/symboldefts.svg/icon.svg#icon-smartphone"></use>
+            </svg>
             <a href="tel:+380961111111" id="header-tel">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -131,19 +138,49 @@
     </section>
 
     <!-- footer -->
-
     <footer class="foot">
       <div class="container  box-container">
+        <div class="flex">
+        <div class="flex-footer">
         <h2 class="foot-text">
           <span id="web">Web</span><span id="studiow">Studio</span>
         </h2>
-
+        <div class="foot-email-tel">
         <address class="adres">м. Київ, пр-т Лесі Українки, 26</address>
+
         <a href="mailto:info@devstudio.com" class="mailto"
           >info@devstudio.com</a
         >
         <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
       </div>
+      </div>
+    <div class="flex-footer2"> 
+        <h2 class="sot-title">ПРИЄДНУЙТЕСЬ</h2>
+        <ul class="employes-svg-list">
+          <li class="employes-svg-item">
+        <svg class="employes-svg">
+          <use href="./img/symboldefts.svg/icon.svg#icon-instagram"></use>
+        </svg>
+      </li>
+      <li class="employes-svg-item">
+        <svg class="employes-svg">
+          <use href="./img/symboldefts.svg/icon.svg#icon-twitter"></svg>
+        </svg>
+      </li>
+      <li class="employes-svg-item">
+        <svg class="employes-svg">
+          <use href="./img/symboldefts.svg/icon.svg#icon-facebook"></svg>
+        </svg>
+      </li>
+      <li class="employes-svg-item">
+        <svg class="employes-svg">
+          <use href="./img/symboldefts.svg/icon.svg#icon-linkedin"></svg>
+        </svg>
+      </li>
+      </ul>
+  </div>
+</div>
+</div>
     </footer>
   </body>
 </html>
