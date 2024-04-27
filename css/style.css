@@ -547,6 +547,36 @@ margin-bottom: 10px;
 }
 
 
+.presentation-overlay {
+    background: rgba(33, 150, 243, 0.90);
+    width: 370px;
+    height: 294px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+}
+
+.presentation-overlay:hover {
+    opacity: 1;
+}
+
+
+.overlay-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: 0.54px;
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+}
+
+
 .input-for {
     outline: none;
     border: none;
@@ -718,6 +748,8 @@ margin-bottom: 10px;
     border: 1px solid #EEE;
     max-width: 370px;
     flex-basis: calc(100% - (30px * 2) / 3);
+    position: relative;
+    overflow: hidden;
 }
 
 .presentation-item:hover {
