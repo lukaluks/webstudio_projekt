@@ -64,6 +64,7 @@ header {
 
 .header-link:hover {
      color: #2196F3;
+     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .foot {
@@ -88,7 +89,7 @@ header {
     font-size: 44px;
     padding-top: 200px;
     padding-bottom: 200px;    
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
 
 }
@@ -156,13 +157,12 @@ header {
 
 .customers-item:hover {
     border: 1px solid #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers-list {
     display: flex;
     gap: 30px;
-    margin-left: 215px;
-    margin-right: 215px;
     padding-bottom: 94px;
 }
 
@@ -211,18 +211,22 @@ header {
 
 .header-items:hover .email {
     fill: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .employees-svg-item:hover .employees-svg {
     fill: #FFF;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers-item:hover .customers-svg {
     fill: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-items:hover .phone {
     fill: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-item {
@@ -534,15 +538,18 @@ margin-bottom: 10px;
 
 .close-box:hover  .close {
     fill: #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .box:hover {
     fill: #2196F3;
     border:1px solid #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .box-big:hover {
     border:1px solid #2196F3;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .beckgdrop.is-hidden {
@@ -564,6 +571,7 @@ margin-bottom: 10px;
 
 .presentation-overlay:hover {
     opacity: 1;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-link:hover::after {
@@ -794,6 +802,7 @@ margin-bottom: 10px;
 .presentation-item:hover {
     border: 1px solid #EEE;
     background: #FFF;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;   
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -809,7 +818,7 @@ margin-bottom: 10px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
-    margin-left: 95px;
+    padding-left: 95px;
 }
 
 .flex-footer3-input {
@@ -911,6 +920,7 @@ margin-bottom: 10px;
 .naviganion-button:hover {
     background-color: #2196F3;
     color: var(--adress-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .navigation-list {
