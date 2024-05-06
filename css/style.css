@@ -52,7 +52,9 @@ header {
     font-size: 14px;
     font-weight: 500;
     line-height: normal;
-    
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:focus {
@@ -62,9 +64,8 @@ header {
     line-height: normal;
 }
 
-.header-link:hover {
+.header-link:hover  {
      color: #2196F3;
-     transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .foot {
@@ -153,11 +154,13 @@ header {
     height: 92px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-item:hover {
     border: 1px solid #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers-list {
@@ -207,31 +210,42 @@ header {
 .header-items {
     display: flex;
     align-items: center;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-items:hover .email {
     fill: #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .employees-svg-item:hover .employees-svg {
     fill: #FFF;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .customers-item:hover .customers-svg {
     fill: #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .header-items:hover .phone {
     fill: #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.employees-svg-item {
+    border-radius: 50%;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-item {
     position: relative;
+     transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .header-links {
     text-align: center;
@@ -534,22 +548,20 @@ margin-bottom: 10px;
     margin-right: 8px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .close-box:hover  .close {
     fill: #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .box:hover {
     fill: #2196F3;
     border:1px solid #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .box-big:hover {
     border:1px solid #2196F3;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
 .beckgdrop.is-hidden {
@@ -567,23 +579,31 @@ margin-bottom: 10px;
     left: 0px;
     top: 0px;
     opacity: 0;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .presentation-overlay:hover {
     opacity: 1;
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+}
+
+.header-link::after {
+    content: '';
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    position: absolute; 
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    top: 46px;
+    left: 0px;
 }
 
 .header-link:hover::after {
-    display: block;
-    content: '';
-    border-radius: 2px;
     background: #2196F3;
-    width: 100%;
-    height: 4px;
-    position: absolute;
-    top: 46px;
-    left: 0px;
 }
 
 .after::after {
@@ -595,7 +615,7 @@ margin-bottom: 10px;
     height: 4px;
     position: absolute;
     top: 46px;
-    left: 0px;
+    left: 0px;     
 }
 
 .color {
@@ -690,6 +710,9 @@ margin-bottom: 10px;
     padding-bottom: 11px;
     padding-left: 12px;
     padding-right: 12px; 
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-big {
@@ -699,6 +722,9 @@ margin-bottom: 10px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding: 12px 16px 82px 16px;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -797,6 +823,9 @@ margin-bottom: 10px;
     flex-basis: calc(100% - (30px * 2) / 3);
     position: relative;
     overflow: hidden;
+    transition-property: box-shadow ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .presentation-item:hover {
@@ -920,7 +949,7 @@ margin-bottom: 10px;
 .naviganion-button:hover {
     background-color: #2196F3;
     color: var(--adress-color);
-    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 250ms ;
 }
 
 .navigation-list {
@@ -972,6 +1001,9 @@ margin-bottom: 10px;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #header-tel:focus {
