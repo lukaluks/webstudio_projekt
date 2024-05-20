@@ -513,6 +513,8 @@ margin-bottom: 10px;
     position: fixed;
     top: 0px;
     left: 0px;
+    transition: opacity 250ms linear, visibility 250ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -593,17 +595,23 @@ margin-bottom: 10px;
     width: 370px;
     height: 294px;
     position: absolute;
-    left: 0px;
-    top: 0px;
+    top: 0;
+    left: 0;
     opacity: 0;
-    transition-property: opacity;
+    overflow: hidden;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+    
 }
 
-.presentation-overlay:hover {
+.presentation-item:hover .presentation-overlay {
     opacity: 1;
+    overflow: visible;
+    transform: translateY(0%);
 }
+
+
 
 .header-link::after {
     content: '';
