@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/Normalize.css" />
     <link rel="stylesheet" href="./css/Reset.css" />
@@ -57,7 +62,7 @@
 
     <section class="information">
       <div class="container">
-        <h1 class="information-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+        <h1 class="information-title animate__heartBeat">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button type="button" class="button" data-modal-open>Замовити послугу</button>
       </div>
     </section>
@@ -67,10 +72,10 @@
     <section class="info">
       <div class="container">
         <ul class="info-list">
-          <li class="info-item">
+          <li class="info-item" data-aos="flip-left">
             <div class="info-box">
 
-            </div>
+            </div >
             <h2 class="info-text">Увага до деталей</h2>
             <p class="info-description">
               Ідейні міркування, і навіть початок повсякденної роботи з
@@ -80,7 +85,7 @@
           <div class="info-box">
 
           </div>
-          <li class="info-item2">
+          <li class="info-item2" data-aos="flip-left">
             <h2 class="info-text2">Пунктуальність</h2>
             <p class="info-description">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
@@ -90,7 +95,7 @@
           <div class="info-box">
 
           </div>
-          <li class="info-item3">
+          <li class="info-item3" data-aos="flip-left">
             <h2 class="info-text3">Планування</h2>
             <p class="info-description">
               Так само консультація з широким активом значною мірою зумовлює.
@@ -99,7 +104,7 @@
           <div class="info-box">
 
           </div>
-          <li class="info-item4">
+          <li class="info-item4" data-aos="flip-left">
             <h2 class="info-text4">Сучасні технології</h2>
             <p class="info-description">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -116,15 +121,16 @@
       <div class="container">
         <h2 class="labor-title">Чим ми займаємося</h2>
         <ul class="labor-list">
-          <li class="labor-item">
+          <li class="labor-item" data-aos="flip-left">
+            
             <img src="./img/services2.jpg" class="labor-img" alt="img1" />
                 <button class="lador-btn">ДЕСКТОПНІ ДОДАТКИ</button>
           </li>
-          <li class="labor-item">
+          <li class="labor-item" data-aos="flip-left">
             <img src="./img/services1.jpg" class="labor-img" alt="imgsection" />
             <button class="lador-btn">МОБІЛЬНІ ДОДАТКИ</button>
           </li>
-          <li class="labor-item">
+          <li class="labor-item" data-aos="flip-left">
             <img src="./img/services3.jpg" class="labor-img" alt="img3" />
             <button class="lador-btn">ДИЗАЙНЕРСЬКІ РІШЕННЯ</button>
           </li>
@@ -138,7 +144,7 @@
       <div class="container">
         <h2 class="employees-title">Наша команда</h2>
         <ul class="employees-list">
-          <li class="employees-item">
+          <li class="employees-item" data-aos="zoom-in-up">
             <img  src="./img/employees.jpg" class="employees-img" alt="employees"/>
             <h3 class="employees-text">Ігор Дем'яненко</h3>
             <p class="employees-description">Product Designer</p>
@@ -165,7 +171,7 @@
           </li>
           </ul>
           </li>
-          <li class="employees-item">
+          <li class="employees-item" data-aos="zoom-in-up">
             <img src="./img/employees3.jpg" class="employees-img" alt="employees3"/>
             <h3 class="employees-text">Ольга Рєпіна</h3>
             <p class="employees-description">Frontend Developer</p>
@@ -192,13 +198,13 @@
           </li>
           </ul>
           </li>
-          <li class="employees-item">
+          <li class="employees-item" data-aos="zoom-in-up">
             <img
               src="./img/employees2.jpg"
               class="employees-img"
               alt="employees2"
             />
-            <h3 class="employees-text">Микола Тарасов</h3>
+            <h3 class="employees-text" >Микола Тарасов</h3>
             <p class="employees-description">Marketing</p>
             <ul class="employees-svg-list">
               <li class="employees-svg-item">
@@ -223,7 +229,7 @@
           </li>
           </ul>
           </li>
-          <li class="employees-item">
+          <li class="employees-item" data-aos="zoom-in-up">
             <img src="./img/imemployees4.jpg" class="employees-img" alt="employees4"/>
             <h3 class="employees-text">Михайло Єрмаков</h3>
             <p class="employees-description">UI Designer</p>
@@ -255,35 +261,43 @@
     </section>
     <section class="customers">
       <div class="container">
-      <h2 class="customers-title">Постійні клієнти</h2>
+      <h2 class="customers-title" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">Постійні клієнти</h2>
       <ul class="customers-list">
         
-        <li class="customers-item">
+        <li class="customers-item" data-aos="fade-up"
+        data-aos-duration="3000">
         <svg class="customers-svg">
           <use href="./img/symboldefts.svg/icon.svg#icon-logo"></use>
         </svg>
       </li>
-        <li class="customers-item">
+        <li class="customers-item" data-aos="fade-up"
+        data-aos-duration="3000">
         <svg class="customers-svg">
           <use href="./img/symboldefts.svg/icon.svg#icon-company"></use>
         </svg>
       </li>
-        <li class="customers-item">
+        <li class="customers-item" data-aos="fade-up"
+        data-aos-duration="3000">
         <svg class="customers-svg">
           <use href="./img/symboldefts.svg/icon.svg#icon-company2"></use>
         </svg>
       </li>
-        <li class="customers-item">
+        <li class="customers-item" data-aos="fade-up"
+        data-aos-duration="3000">
         <svg class="customers-svg">
           <use href="./img/symboldefts.svg/icon.svg#icon-logo-faster"></use>
         </svg>
       </li>
-        <li class="customers-item">
+        <li class="customers-item" data-aos="fade-up"
+        data-aos-duration="3000">
         <svg class="customers-svg">
           <use href="./img/symboldefts.svg/icon.svg#icon-brand"></use>
         </svg>
       </li>
-      <li class="customers-item">
+      <li class="customers-item" data-aos="fade-up"
+      data-aos-duration="3000">
       <svg class="customers-svg">
         <use href="./img/symboldefts.svg/icon.svg#icon-company3"></use>
       </svg>
@@ -399,7 +413,10 @@
         </form>
       </div>
     </div>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

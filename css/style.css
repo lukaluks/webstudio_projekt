@@ -249,10 +249,12 @@ header {
 }
 
 
-
 .header-links {
     text-align: center;
+    animation-name: fone;
+    animation-duration: 2s;
 }
+
 .info {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -957,6 +959,9 @@ margin-bottom: 10px;
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-name: buttonani;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 .naviganion-button:focus {
